@@ -74,24 +74,24 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-ʜᴏɪ, ɪ ᴍ 【🇮🇳♡➣𝐓𝐫𝐢𝐬𝐡𝐚➣♡🇮🇳】
+ʜᴏɪ, ɪ ᴍ 【🇮🇳♡ 𝑮𝒀𝑨𝑵𝑰 𝑲𝑰𝑵𝑮𝑫𝑶𝑴 ♡🇮🇳】
 `ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ ᴀɴᴅ ɪ ᴍ ᴠᴇʀʏ ᴘᴏᴡᴇʀꜰᴜʟʟ ʙᴏᴛ! ʜɪᴛ` /help
- [❤](https://telegra.ph/file/3f3c1824acae809163899.jpg)
+ [❤](https://telegra.ph/file/c7efeade5ea4a81383cdb.jpg)
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="ᴀᴅᴅ ➣𝐓𝐫𝐢𝐬𝐡𝐚➣ ᴛᴏ ᴜʀ ᴄʜᴀᴛ", url="t.me/DevilTrishaRoBot?startgroup=true"),
+            text="ᴀᴅᴅ ☾︎ 𝐺𝑦𝑎𝑛𝑖 𝐾𝑖𝑛𝑔𝑑𝑜𝑚 ☽︎ ᴛᴏ ᴜʀ ᴄʜᴀᴛ", url="t.me/GYANI_MANAGEMENT_BOT?startgroup=true"),
     ],
     [
         InlineKeyboardButton(
-            text="🔥 𝗦𝗼𝘂𝗿𝗰𝗲 & 𝗦𝘂𝗽𝗽𝗼𝗿𝘁 🔥", url=f"https://t.me/JaiHindChatting"
+            text="🥀 𝗦𝗼𝘂𝗿𝗰𝗲 & 𝗦𝘂𝗽𝗽𝗼𝗿𝘁 🥀", url=f"https://t.me/GyaniFed"
         ),
     ],
     [
         InlineKeyboardButton(
-            text="⚡ 𝗢𝗳𝗶𝗶𝗰𝗶𝗮𝗹 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 ⚡", url=f"https://t.me/RYMOFFICIAL"
+            text="💝 𝗢𝗳𝗶𝗶𝗰𝗶𝗮𝗹 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 💝", url=f"https://t.me/GyaniKingdom"
         ),
     ],
     [
@@ -102,12 +102,12 @@ buttons = [
 
 HELP_STRINGS = """
 `ʏᴏᴜ ᴄᴀɴ ᴄʜᴏᴏꜱᴇ ᴀɴ ᴏᴘᴛɪᴏɴ ʙᴇʟᴏᴡ, ʙʏ ᴄʟɪᴄᴋɪɴɢ ᴀ ʙᴜᴛᴛᴏɴ..`
-ᴀʟꜱᴏ ʏᴏᴜ ᴄᴀɴ ᴀꜱᴋ ᴀɴʏᴛʜɪɴɢ ɪɴ ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ [❤️](https://telegra.ph/file/3f3c1824acae809163899.jpg)"""
+ᴀʟꜱᴏ ʏᴏᴜ ᴄᴀɴ ᴀꜱᴋ ᴀɴʏᴛʜɪɴɢ ɪɴ ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ [❤️](https://telegra.ph/file/c7efeade5ea4a81383cdb.jpg)"""
 
-START_IMG = "https://telegra.ph/file/63d1ee18f81c92d11210e.mp4"
+START_IMG = "https://telegra.ph/file/c7efeade5ea4a81383cdb.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project [𝐑𝐀𝐉](t.me/JaiHindChatting) \
+ You can support the project [𝐄𝐦𝐨𝐭𝐢𝐨𝐧𝐚𝐥 𝐆𝐲𝐚𝐧𝐢](t.me/GyaniFed) \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
 IMPORTED = {}
@@ -221,7 +221,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_video(
-            START_IMG, caption= "<code>【🇮🇳♡➣𝐓𝐫𝐢𝐬𝐡𝐚➣♡🇮🇳】 is Here For You❤\nI am Awake Since</code>: <code>{}</code>".format(
+            START_IMG, caption= "<code>【🇮🇳♡ 𝐺𝑦𝑎𝑛𝑖 𝐾𝑖𝑛𝑔𝑑𝑜𝑚 ♡🇮🇳】 is Here For You❤\nI am Awake Since</code>: <code>{}</code>".format(
                 uptime            
             ),
             parse_mode=ParseMode.HTML,
@@ -356,15 +356,15 @@ def zaid_about_callback(update, context):
     query = update.callback_query
     if query.data == "zaid_":
         query.message.edit_text(
-            text=""" ℹ️ I am [【🇮🇳♡➣𝐓𝐫𝐢𝐬𝐡𝐚➣♡🇮🇳】](t.me/DevilTrishaRoBot), a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I am [【🇮🇳♡ 𝐺𝑦𝑎𝑛𝑖 𝐾𝑖𝑛𝑔𝑑𝑜𝑚 ♡🇮🇳】](t.me/GYANI_MANAGEMENT_BOT), a powerful group management bot built to help you manage your group easily.
                  \n❍ I can restrict users.
                  \n❍ I can greet users with customizable welcome messages and even set a group's rules.
                  \n❍ I have an advanced anti-flood system.
                  \n❍ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
                  \n❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  \n❍ I check for admins' permissions before executing any command and more stuffs
-                 \n\n_【🇮🇳♡➣𝐓𝐫𝐢𝐬𝐡𝐚➣♡🇮🇳】licensed under the GNU General Public License v3.0_
-                 \n❍ Assistant @DevilTrishaRoBot\_Assistant.
+                 \n\n_【🇮🇳♡ 𝐺𝑦𝑎𝑛𝑖 𝐾𝑖𝑛𝑔𝑑𝑜𝑚 ♡🇮🇳】licensed under the GNU General Public License v3.0_
+                 \n❍ Assistant @be_great_full\_Assistant.
                  \nHere is the [💾Repository](https://github.com/rakeshyt/TrishaManager).
                  \n\nIf you have any question about bot, let us know at .""",
             parse_mode=ParseMode.MARKDOWN,
@@ -392,7 +392,7 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I am [♡➣𝐓𝐫𝐢𝐬𝐡𝐚➣♡](t.me/DevilTrishaRoBot)
+            text=""" Hi..🤗 I am [♡ 𝐺𝑦𝑎𝑛𝑖 𝐾𝑖𝑛𝑔𝑑𝑜𝑚 ♡](t.me/GYANI_MANAGEMENT_BOT)
                  \nHere is the [Source Code](https://github.com/rakeshyt/TrishaManager) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
